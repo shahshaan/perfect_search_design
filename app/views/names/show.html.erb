@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Rank:</b>
+  <%= @name.rank %>
+</p>
+
+<p>
+  <b>Screenshot:</b>
+  <%= @name.screenshot %>
+</p>
+
+
+<%= link_to 'Edit', edit_name_path(@name) %> |
+<%= link_to 'Back', names_path %>
